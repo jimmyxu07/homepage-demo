@@ -26,19 +26,19 @@ export default function Home() {
               </div>
 
               {/* Name */}
-              <div className="space-y-4">
+              <div className="space-y-4 text-center">
                 <h1 className="text-6xl lg:text-8xl font-bold tracking-tight">
                   <span className="bg-gradient-to-r from-white via-purple-200 to-blue-200 bg-clip-text text-transparent">
                     Jimmy AI
                   </span>
                 </h1>
-                <p className="text-2xl lg:text-4xl font-light text-gray-400">
+                <p className="text-4xl lg:text-5xl font-bold text-gray-400">
                   许泓楷
                 </p>
               </div>
 
               {/* Description */}
-              <div className="space-y-4 text-gray-300">
+              <div className="space-y-4 text-gray-300 text-center">
                 <p className="text-xl leading-relaxed">
                   香港大学信息技术硕士 | 头部AI社群先驱（5万+成员）
                 </p>
@@ -48,7 +48,7 @@ export default function Home() {
               </div>
 
               {/* CTA Buttons */}
-              <div className="flex flex-wrap gap-4 pt-4">
+              <div className="flex flex-wrap gap-4 pt-4 justify-center">
                 <a
                   href="#contact"
                   className="group relative px-8 py-4 bg-gradient-to-r from-purple-600 to-blue-600 rounded-xl font-medium transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/25"
